@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:rstheme.com)",
+      "WebFetch(domain:eon-avocat.fr)",
+      "Bash(for f in index.html penal.html famille.html affaires.html immobilier.html travail.html corporel.html)",
+      "Bash(do)",
+      "Bash(sed -i -e 's/Créteil \\(94\\)/Bobigny \\(93\\)/g' -e 's/94000 Créteil/93000 Bobigny/g' -e 's/01 XX XX XX XX/06 01 01 30 44/g' -e 's/contact@nabil-avocats\\\\.fr/contact@eon-avocat.fr/g' -e 's/<span class=\"\"logo-text\"\">NABIL<\\\\/span>/<span class=\"\"logo-text\"\">EON<\\\\/span>/g' -e 's/<span class=\"\"logo-sub\"\">AVOCATS<\\\\/span>/<span class=\"\"logo-sub\"\">AVOCAT<\\\\/span>/g' -e 's/Cabinet Nabil Avocats/Cabinet EON Avocat/g' -e 's/Nabil Avocats/EON Avocat/g' -e 's/Tribunal Judiciaire de Créteil/Tribunal Judiciaire de Bobigny/g' -e 's/Barreau du Val-de-Marne/Barreau de Seine-Saint-Denis/g' -e 's/Tribunal de Commerce de Créteil/Tribunal de Commerce de Bobigny/g' -e 's/Tribunal Administratif de Melun/Tribunal Administratif de Montreuil/g' -e 's/Conseil de Prud''''hommes de Créteil/Conseil de Prud''''hommes de Bobigny/g' -e 's/fab fa-twitter/fab fa-instagram/g' -e 's|https://www.ordre-avocats-creteil.fr/|https://www.avocats-bobigny.com/|g' -e 's/Val-de-Marne/Seine-Saint-Denis/g' -e 's/Tribunal de Créteil/Tribunal de Bobigny/g' -e 's/tribunal correctionnel de Créteil/tribunal correctionnel de Bobigny/g' -e 's/à Créteil/à Bobigny/g' -e 's/sur Créteil/sur Bobigny/g' \"$f\")",
+      "Bash(done)",
+      "Bash(sed -i 's|Bobigny Bobigny Bobigny & Île-de-France Île-de-France Île-de-France|Bobigny \\\\& Île-de-France|g' index.html penal.html famille.html affaires.html immobilier.html travail.html corporel.html)",
+      "Bash(grep -n \"title>\" *.html)",
+      "Bash(for f in \"c:/Users/Webpr/Desktop/Nabil_Avocats/index.html\" \"c:/Users/Webpr/Desktop/Nabil_Avocats/penal.html\" \"c:/Users/Webpr/Desktop/Nabil_Avocats/famille.html\" \"c:/Users/Webpr/Desktop/Nabil_Avocats/affaires.html\" \"c:/Users/Webpr/Desktop/Nabil_Avocats/immobilier.html\" \"c:/Users/Webpr/Desktop/Nabil_Avocats/travail.html\" \"c:/Users/Webpr/Desktop/Nabil_Avocats/corporel.html\")",
+      "Bash(do sed -i '/^[[:space:]]*<!--.*-->$/d' \"$f\")",
+      "Bash(perl -0777 -pe 's|/\\\\*.*?\\\\*/||gs; s/\\\\n{3,}/\\\\n\\\\n/g; s/^\\\\n+//; s/\\\\n+$/\\\\n/' \"c:/Users/Webpr/Desktop/Nabil_Avocats/css/style.css\")",
+      "Bash(cp /tmp/style_clean.css \"c:/Users/Webpr/Desktop/Nabil_Avocats/css/style.css\")",
+      "Bash(perl -0777 -pe 's|/\\\\*.*?\\\\*/||gs; s/\\\\n{3,}/\\\\n\\\\n/g; s/^\\\\n+//; s/\\\\n+$/\\\\n/' \"c:/Users/Webpr/Desktop/Nabil_Avocats/css/pages.css\")",
+      "Bash(cp /tmp/pages_clean.css \"c:/Users/Webpr/Desktop/Nabil_Avocats/css/pages.css\")",
+      "Bash(git init)"
+    ]
+  }
+}
