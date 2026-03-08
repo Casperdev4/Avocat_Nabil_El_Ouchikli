@@ -15,7 +15,10 @@
       "Bash(cp /tmp/style_clean.css \"c:/Users/Webpr/Desktop/Nabil_Avocats/css/style.css\")",
       "Bash(perl -0777 -pe 's|/\\\\*.*?\\\\*/||gs; s/\\\\n{3,}/\\\\n\\\\n/g; s/^\\\\n+//; s/\\\\n+$/\\\\n/' \"c:/Users/Webpr/Desktop/Nabil_Avocats/css/pages.css\")",
       "Bash(cp /tmp/pages_clean.css \"c:/Users/Webpr/Desktop/Nabil_Avocats/css/pages.css\")",
-      "Bash(git init)"
+      "Bash(git init)",
+      "Bash(git branch -M main)",
+      "Bash(git remote add origin https://github.com/Casperdev4/Avocat_Nabil_El_Ouchikli.git)",
+      "Bash(git push -u origin main)"
     ]
   }
 }

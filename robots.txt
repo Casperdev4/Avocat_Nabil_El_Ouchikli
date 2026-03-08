@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /.claude/
+Disallow: /.vscode/
+
+Sitemap: https://eon-avocat.fr/sitemap.xml
