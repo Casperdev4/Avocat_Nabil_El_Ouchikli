@@ -19,7 +19,10 @@
       "Bash(git branch -M main)",
       "Bash(git remote add origin https://github.com/Casperdev4/Avocat_Nabil_El_Ouchikli.git)",
       "Bash(git push -u origin main)",
-      "Bash(git push)"
+      "Bash(git push)",
+      "Bash(sed -i 's|eon-avocat.fr/penal.html|eon-avocat.fr/avocat-droit-penal.html|g' avocat-droit-penal.html)",
+      "Bash(sed -i 's|eon-avocat.fr/affaires.html|eon-avocat.fr/avocat-droit-penal-des-affaires.html|g' avocat-droit-penal-des-affaires.html)",
+      "Bash(sed -i 's|eon-avocat.fr/corporel.html|eon-avocat.fr/avocat-prejudice-corporel.html|g' avocat-prejudice-corporel.html)"
     ]
   }
 }
