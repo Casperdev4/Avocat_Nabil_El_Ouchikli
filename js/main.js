@@ -89,8 +89,8 @@ document.addEventListener('DOMContentLoaded', () => {
             particle.style.left = Math.random() * 100 + '%';
             particle.style.width = (Math.random() * 3 + 1) + 'px';
             particle.style.height = particle.style.width;
-            particle.style.animationDuration = (Math.random() * 15 + 10) + 's';
-            particle.style.animationDelay = (Math.random() * 10) + 's';
+            particle.style.animationDuration = (Math.random() * 25 + 25) + 's';
+            particle.style.animationDelay = (Math.random() * 15) + 's';
             particlesContainer.appendChild(particle);
         }
     }
