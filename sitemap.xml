@@ -1,188 +1,221 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
         <loc>https://eon-avocat.fr/</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://eon-avocat.fr/eon-avocat-bobigny-ile-de-france-eon.jpg</image:loc>
+            <image:title>Cabinet NEO Avocat Bobigny Île-de-France</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://eon-avocat.fr/avocat-a-paris-maitre-nabil-el-ouchikli-1096x1536.jpeg</image:loc>
+            <image:title>Maître Nabil El Ouchikli — Avocat Fondateur NEO Avocat Bobigny</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://eon-avocat.fr/images/Maître-Claire-Beaumont.png</image:loc>
+            <image:title>Maître Claire Beaumont — Avocate Associée NEO Avocat</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://eon-avocat.fr/images/Maître-Antoine-Morita.png</image:loc>
+            <image:title>Maître Antoine Morita — Avocat Collaborateur NEO Avocat</image:title>
+        </image:image>
     </url>
     <url>
-        <loc>https://eon-avocat.fr/cabinet.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <loc>https://eon-avocat.fr/cabinet-avocat.html</loc>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://eon-avocat.fr/avocat-a-paris-maitre-nabil-el-ouchikli-1096x1536.jpeg</image:loc>
+            <image:title>Maître Nabil El Ouchikli — Avocat Fondateur NEO Avocat</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://eon-avocat.fr/images/Maître-Claire-Beaumont.png</image:loc>
+            <image:title>Maître Claire Beaumont — Avocate Associée</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://eon-avocat.fr/images/Maître-Antoine-Morita.png</image:loc>
+            <image:title>Maître Antoine Morita — Avocat Collaborateur</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://eon-avocat.fr/eon-avocat-bobigny-ile-de-france-eon.jpg</image:loc>
+            <image:title>Cabinet NEO Avocat Bobigny</image:title>
+        </image:image>
     </url>
     <url>
         <loc>https://eon-avocat.fr/avocat-droit-penal.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://eon-avocat.fr/avocat-droit-penal-des-affaires.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://eon-avocat.fr/avocat-prejudice-corporel.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://eon-avocat.fr/penal/garde-a-vue-avocat.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://eon-avocat.fr/penal/comparution-immediate.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://eon-avocat.fr/penal/avocat-correctionnel.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://eon-avocat.fr/penal/avocat-aux-assises.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://eon-avocat.fr/penal/avocat-mise-en-examen.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://eon-avocat.fr/penal/victimes.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://eon-avocat.fr/affaires/avocat-pour-escroquerie.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://eon-avocat.fr/affaires/avocat-abus-de-biens-sociaux.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://eon-avocat.fr/affaires/abus-de-confiance-avocat.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://eon-avocat.fr/affaires/avocat-corruption.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://eon-avocat.fr/affaires/blanchiment.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <loc>https://eon-avocat.fr/affaires/avocat-pour-blanchiment.html</loc>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://eon-avocat.fr/affaires/fraude-fiscale.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <loc>https://eon-avocat.fr/affaires/avocat-pour-fraude-fiscale.html</loc>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://eon-avocat.fr/corporel/avocat-pour-accident-de-la-route.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://eon-avocat.fr/corporel/accidents-medicaux.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <loc>https://eon-avocat.fr/corporel/avocat-accidents-medicaux.html</loc>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://eon-avocat.fr/corporel/accidents-travail.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <loc>https://eon-avocat.fr/corporel/avocat-accidents-travail.html</loc>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://eon-avocat.fr/corporel/agressions.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <loc>https://eon-avocat.fr/corporel/avocat-pour-agressions.html</loc>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://eon-avocat.fr/corporel/avocat-pour-dommage-corporel.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://eon-avocat.fr/corporel/expertise-medicale.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <loc>https://eon-avocat.fr/corporel/avocat-expertise-medicale.html</loc>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://eon-avocat.fr/tribunaux/avocat-paris.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://eon-avocat.fr/tribunaux/avocat-nanterre.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://eon-avocat.fr/tribunaux/avocat-creteil.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://eon-avocat.fr/tribunaux/avocat-evry.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://eon-avocat.fr/tribunaux/avocat-pontoise.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://eon-avocat.fr/tribunaux/avocat-meaux.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://eon-avocat.fr/tribunaux/avocat-melun.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://eon-avocat.fr/tribunaux/avocat-versailles.html</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
