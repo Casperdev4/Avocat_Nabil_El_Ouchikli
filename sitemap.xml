@@ -14,14 +14,6 @@
             <image:loc>https://eon-avocat.fr/avocat-a-paris-maitre-nabil-el-ouchikli-1096x1536.jpeg</image:loc>
             <image:title>Maître Nabil El Ouchikli — Avocat Fondateur NEO Avocat Bobigny</image:title>
         </image:image>
-        <image:image>
-            <image:loc>https://eon-avocat.fr/images/Maître-Claire-Beaumont.png</image:loc>
-            <image:title>Maître Claire Beaumont — Avocate Associée NEO Avocat</image:title>
-        </image:image>
-        <image:image>
-            <image:loc>https://eon-avocat.fr/images/Maître-Antoine-Morita.png</image:loc>
-            <image:title>Maître Antoine Morita — Avocat Collaborateur NEO Avocat</image:title>
-        </image:image>
     </url>
     <url>
         <loc>https://eon-avocat.fr/cabinet-avocat.html</loc>
@@ -31,14 +23,6 @@
         <image:image>
             <image:loc>https://eon-avocat.fr/avocat-a-paris-maitre-nabil-el-ouchikli-1096x1536.jpeg</image:loc>
             <image:title>Maître Nabil El Ouchikli — Avocat Fondateur NEO Avocat</image:title>
-        </image:image>
-        <image:image>
-            <image:loc>https://eon-avocat.fr/images/Maître-Claire-Beaumont.png</image:loc>
-            <image:title>Maître Claire Beaumont — Avocate Associée</image:title>
-        </image:image>
-        <image:image>
-            <image:loc>https://eon-avocat.fr/images/Maître-Antoine-Morita.png</image:loc>
-            <image:title>Maître Antoine Morita — Avocat Collaborateur</image:title>
         </image:image>
         <image:image>
             <image:loc>https://eon-avocat.fr/eon-avocat-bobigny-ile-de-france-eon.jpg</image:loc>

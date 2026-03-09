@@ -825,8 +825,8 @@ ul { list-style: none; }
 }
 
 .team-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: center;
     gap: 30px;
 }
 
@@ -836,6 +836,8 @@ ul { list-style: none; }
     overflow: hidden;
     box-shadow: var(--shadow);
     transition: var(--transition);
+    max-width: 380px;
+    width: 100%;
 }
 
 .team-card:hover {
