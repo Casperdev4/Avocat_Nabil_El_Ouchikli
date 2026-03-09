@@ -23,7 +23,13 @@
       "Bash(sed -i 's|eon-avocat.fr/penal.html|eon-avocat.fr/avocat-droit-penal.html|g' avocat-droit-penal.html)",
       "Bash(sed -i 's|eon-avocat.fr/affaires.html|eon-avocat.fr/avocat-droit-penal-des-affaires.html|g' avocat-droit-penal-des-affaires.html)",
       "Bash(sed -i 's|eon-avocat.fr/corporel.html|eon-avocat.fr/avocat-prejudice-corporel.html|g' avocat-prejudice-corporel.html)",
-      "Bash(find . -name \"*.html\" -exec sed -i 's/#1B3A5C/#1A1A1A/g' {} +)"
+      "Bash(find . -name \"*.html\" -exec sed -i 's/#1B3A5C/#1A1A1A/g' {} +)",
+      "Bash(find . -name \"*.html\" -exec sed -i 's|https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700\\\\&family=Raleway:wght@300;400;500;600;700\\\\&display=swap|https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700\\\\&family=Inter:wght@300;400;500;600;700\\\\&display=swap|g' {} +)",
+      "Bash(sed -i \"s/font-family: ''Playfair Display'', serif/font-family: ''Cormorant Garamond'', serif/g\" cabinet.html)",
+      "Bash(sed -i \"s/font-family: ''Raleway'', sans-serif/font-family: ''Inter'', sans-serif/g\" cabinet.html)",
+      "Bash(find . -name \"*.html\" ! -name \"index.html\" -exec sed -i 's|    <a href=\"\"https://api.whatsapp.com/send/?phone=33601013044\\\\&text\\\\&type=phone_number\\\\&app_absent=0\"\" target=\"\"_blank\"\" rel=\"\"noopener\"\" class=\"\"whatsapp-float\"\" aria-label=\"\"Contactez-nous sur WhatsApp\"\">\\\\n        <i class=\"\"fab fa-whatsapp\"\"></i>\\\\n    </a>|    <div class=\"\"whatsapp-container\"\">\\\\n        <div class=\"\"whatsapp-label\"\"><span>Urgence ?</span> Appelez-nous</div>\\\\n        <a href=\"\"https://api.whatsapp.com/send/?phone=33601013044\\\\&text\\\\&type=phone_number\\\\&app_absent=0\"\" target=\"\"_blank\"\" rel=\"\"noopener\"\" class=\"\"whatsapp-float\"\" aria-label=\"\"Contactez-nous sur WhatsApp\"\">\\\\n            <i class=\"\"fab fa-whatsapp\"\"></i>\\\\n        </a>\\\\n    </div>|g' {} +)",
+      "Bash(python -c \":*)",
+      "Bash(node -e \":*)"
     ]
   }
 }

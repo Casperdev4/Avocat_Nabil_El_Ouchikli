@@ -220,24 +220,18 @@ ul { list-style: none; }
 
 .logo {
     display: flex;
-    flex-direction: column;
-    line-height: 1;
+    align-items: center;
+    text-decoration: none;
 }
 
-.logo-text {
-    font-family: var(--font-heading);
-    font-size: 28px;
-    font-weight: 700;
-    color: var(--gold);
-    letter-spacing: 4px;
+.logo-svg {
+    height: 40px;
+    width: auto;
 }
 
-.logo-sub {
-    font-size: 11px;
-    letter-spacing: 6px;
-    color: rgba(255,255,255,0.7);
-    font-weight: 300;
-    text-transform: uppercase;
+.footer-logo .logo-svg {
+    height: 35px;
+    width: auto;
 }
 
 .nav-menu {
@@ -1286,13 +1280,8 @@ ul { list-style: none; }
 
 .footer-logo {
     display: flex;
-    flex-direction: column;
-    line-height: 1;
+    align-items: center;
     margin-bottom: 16px;
-}
-
-.footer-logo .logo-text {
-    font-size: 24px;
 }
 
 .footer-col > p {
