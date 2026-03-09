@@ -2,9 +2,9 @@
     --gold: #C9A96E;
     --gold-light: #D4B97A;
     --gold-dark: #A8874F;
-    --blue: #1B3A5C;
-    --blue-dark: #0F2440;
-    --blue-light: #2A5580;
+    --blue: #1A1A1A;
+    --blue-dark: #0D0D0D;
+    --blue-light: #333333;
     --white: #FFFFFF;
     --off-white: #F8F6F3;
     --gray-50: #FAFAFA;
@@ -70,6 +70,18 @@ ul { list-style: none; }
 
 .section {
     padding: 100px 0;
+    position: relative;
+}
+
+.section::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
 }
 
 .gold { color: var(--gold); }
@@ -185,10 +197,11 @@ ul { list-style: none; }
 
 .navbar.scrolled {
     top: 0;
-    background: rgba(15, 36, 64, 0.97);
+    background: rgba(13, 13, 13, 0.97);
     padding: 12px 0;
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+    border-bottom: 1px solid rgba(201, 169, 110, 0.3);
 }
 
 .top-bar.hidden {
@@ -329,9 +342,9 @@ ul { list-style: none; }
     inset: 0;
     background: linear-gradient(
         135deg,
-        rgba(15, 36, 64, 0.92) 0%,
-        rgba(27, 58, 92, 0.85) 50%,
-        rgba(15, 36, 64, 0.90) 100%
+        rgba(13, 13, 13, 0.92) 0%,
+        rgba(26, 26, 26, 0.85) 50%,
+        rgba(13, 13, 13, 0.90) 100%
     );
 }
 
@@ -346,9 +359,10 @@ ul { list-style: none; }
     position: absolute;
     width: 3px;
     height: 3px;
-    background: rgba(201, 169, 110, 0.4);
+    background: rgba(201, 169, 110, 0.6);
     border-radius: 50%;
     animation: floatParticle linear infinite;
+    box-shadow: 0 0 6px rgba(201, 169, 110, 0.4), 0 0 12px rgba(201, 169, 110, 0.2);
 }
 
 @keyframes floatParticle {
@@ -497,7 +511,7 @@ ul { list-style: none; }
 .btn-gold:hover {
     background: linear-gradient(135deg, var(--gold-light), var(--gold));
     transform: translateY(-3px);
-    box-shadow: 0 8px 30px rgba(201, 169, 110, 0.4);
+    box-shadow: 0 8px 35px rgba(201, 169, 110, 0.5), 0 0 15px rgba(201, 169, 110, 0.2);
 }
 
 .btn-outline {
@@ -1342,6 +1356,7 @@ ul { list-style: none; }
 .footer-col ul a:hover {
     color: var(--gold);
     padding-left: 6px;
+    text-shadow: 0 0 8px rgba(201, 169, 110, 0.3);
 }
 
 .footer-contact p {
