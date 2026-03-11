@@ -81,30 +81,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    const particlesContainer = document.getElementById('heroParticles');
-    if (particlesContainer) {
-        for (let i = 0; i < 30; i++) {
-            const particle = document.createElement('div');
-            particle.classList.add('hero-particle');
-            particle.style.left = Math.random() * 100 + '%';
-            particle.style.width = (Math.random() * 3 + 1) + 'px';
-            particle.style.height = particle.style.width;
-            particle.style.animationDuration = (Math.random() * 25 + 25) + 's';
-            particle.style.animationDelay = (Math.random() * 15) + 's';
-            particlesContainer.appendChild(particle);
-        }
-    }
-
     const counters = document.querySelectorAll('.stat-number');
     let countersAnimated = false;
 
     function animateCounters() {
         if (countersAnimated) return;
 
-        const heroStats = document.querySelector('.hero-stats');
-        if (!heroStats) return;
+        const statsBar = document.querySelector('.stats-bar');
+        if (!statsBar) return;
 
-        const rect = heroStats.getBoundingClientRect();
+        const rect = statsBar.getBoundingClientRect();
         if (rect.top < window.innerHeight && rect.bottom > 0) {
             countersAnimated = true;
 
@@ -207,12 +193,5 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    window.addEventListener('scroll', () => {
-        const hero = document.querySelector('.hero');
-        if (hero) {
-            const scrolled = window.scrollY;
-            hero.style.backgroundPositionY = scrolled * 0.3 + 'px';
-        }
-    });
 
 });
