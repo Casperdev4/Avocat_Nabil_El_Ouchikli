@@ -1717,7 +1717,7 @@ ul { list-style: none; }
         overflow: visible;
         width: 100vw;
         margin-left: calc(-50vw + 50%);
-        height: 44vh;
+        height: 50vh;
         flex-shrink: 0;
     }
 
