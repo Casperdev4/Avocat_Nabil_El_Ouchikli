@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <title>Actualités & Médias | Maître Nabil EL OUCHIKLI — NEO Avocat Paris</title>
+    <meta name="description" content="Retrouvez les interventions médiatiques, interviews et articles de presse de Maître Nabil EL OUCHIKLI, avocat à la Cour d'appel de Paris. Cabinet NEO Avocat.">
+    <meta name="author" content="Maître Nabil EL OUCHIKLI - NEO Avocat">
+    <link rel="canonical" href="https://nabil-elouchikli.fr/neo-avocats.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Actualités & Médias — Maître Nabil EL OUCHIKLI, Avocat à Paris">
+    <meta property="og:description" content="Interventions médiatiques, interviews et articles de presse de Maître Nabil EL OUCHIKLI. Cabinet NEO Avocat.">
+    <meta property="og:url" content="https://nabil-elouchikli.fr/neo-avocats.html">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:site_name" content="NEO Avocat">
+    <meta name="theme-color" content="#1A1A1A">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .medias-section {
+            padding: 80px 0;
+            background: var(--white);
+        }
+        .medias-section.alt {
+            background: var(--off-white);
+        }
+        .video-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 40px;
+            max-width: 800px;
+            margin: 40px auto 0;
+        }
+        .video-card {
+            background: var(--white);
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--gray-200);
+        }
+        .video-card .video-embed {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+        }
+        .video-card .video-embed iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .video-card-content {
+            padding: 24px;
+        }
+        .video-card-content h3 {
+            font-family: var(--font-heading);
+            font-size: 20px;
+            color: var(--blue-dark);
+            margin-bottom: 8px;
+        }
+        .video-card-content p {
+            font-size: 15px;
+            color: var(--text-light);
+            line-height: 1.7;
+        }
+        .video-card-meta {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-top: 12px;
+            font-size: 13px;
+            color: var(--gray-500);
+        }
+        .video-card-meta i {
+            color: var(--gold);
+            margin-right: 4px;
+        }
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .article-card {
+            background: var(--white);
+            border-radius: var(--radius);
+            padding: 32px;
+            border: 1px solid var(--gray-200);
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+        }
+        .article-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--gold);
+        }
+        .article-source {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--gold);
+            margin-bottom: 12px;
+        }
+        .article-card h3 {
+            font-family: var(--font-heading);
+            font-size: 18px;
+            color: var(--blue-dark);
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+        .article-card p {
+            font-size: 15px;
+            color: var(--text-light);
+            line-height: 1.7;
+            flex-grow: 1;
+        }
+        .article-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--gold);
+            font-weight: 600;
+            font-size: 14px;
+            margin-top: 16px;
+            transition: var(--transition);
+        }
+        .article-link:hover {
+            color: var(--gold-dark);
+            gap: 12px;
+        }
+        .podcast-card {
+            background: linear-gradient(135deg, var(--blue-dark), var(--blue-light));
+            border-radius: var(--radius);
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-top: 40px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .podcast-icon {
+            width: 80px;
+            height: 80px;
+            min-width: 80px;
+            background: rgba(201, 169, 110, 0.15);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            color: var(--gold);
+        }
+        .podcast-content h3 {
+            font-family: var(--font-heading);
+            font-size: 20px;
+            color: var(--white);
+            margin-bottom: 8px;
+        }
+        .podcast-content p {
+            font-size: 15px;
+            color: rgba(255,255,255,0.7);
+            line-height: 1.7;
+            margin-bottom: 16px;
+        }
+        .podcast-content a {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--gold);
+            font-weight: 600;
+            font-size: 14px;
+            transition: var(--transition);
+        }
+        .podcast-content a:hover {
+            color: var(--gold-light);
+        }
+        @media (max-width: 768px) {
+            .articles-grid {
+                grid-template-columns: 1fr;
+            }
+            .podcast-card {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-left">
+                <span><i class="fas fa-map-marker-alt"></i> Cour d'appel de Paris · Intervention partout en France</span>
+                <span><i class="fas fa-clock"></i> Lun - Ven : 9h00 - 19h00</span>
+            </div>
+            <div class="top-bar-right">
+                <span><i class="fas fa-phone-alt"></i> 06 01 01 30 44</span>
+                <span><i class="fas fa-envelope"></i> contact@nabil-elouchikli.fr</span>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/nabilelouchikli?igsh=MTA5YmlxaTY3Z2hhaw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://snapchat.com/t/ALTUc6T7" target="_blank"><i class="fab fa-snapchat-ghost"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar scrolled" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <svg class="logo-svg" viewBox="0 0 1600 400" xmlns="http://www.w3.org/2000/svg">
+                    <defs><linearGradient id="logoGold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#E6D3A3"/><stop offset="50%" stop-color="#C9A24A"/><stop offset="100%" stop-color="#9F7B2F"/></linearGradient></defs>
+                    <text x="120" y="250" font-family="Cinzel, Trajan Pro, Times New Roman, serif" font-size="170" letter-spacing="12" fill="#FFFFFF">NEO</text>
+                    <text x="580" y="250" font-family="Cinzel, Trajan Pro, Times New Roman, serif" font-size="170" letter-spacing="12" fill="url(#logoGold)">AVOCATS</text>
+                </svg>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="cabinet-avocat.html">Le Cabinet</a></li>
+                <li><a href="index.html#domaines">Domaines</a></li>
+                <li><a href="neo-avocats.html" class="active">Actualités</a></li>
+                <li><a href="index.html#temoignages">Témoignages</a></li>
+                <li><a href="index.html#contact" class="nav-cta">Consultation</a></li>
+                <li class="nav-mobile-info">
+                    <a href="tel:0601013044"><i class="fas fa-phone-alt"></i> 06 01 01 30 44</a>
+                    <a href="mailto:contact@nabil-elouchikli.fr"><i class="fas fa-envelope"></i> contact@nabil-elouchikli.fr</a>
+                    <a href="https://wa.me/33601013044" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                    <div class="nav-mobile-social">
+                        <a href="https://www.instagram.com/nabilelouchikli?igsh=MTA5YmlxaTY3Z2hhaw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://snapchat.com/t/ALTUc6T7" target="_blank"><i class="fab fa-snapchat-ghost"></i></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-hero" style="background-image: url('https://images.unsplash.com/photo-1504711434969-e33886168d5c?w=1920&h=800&fit=crop');">
+        <div class="container">
+            <div class="page-breadcrumb">
+                <a href="index.html">Accueil</a>
+                <span class="sep">/</span>
+                <span>Actualités & Médias</span>
+            </div>
+            <div class="page-hero-badge"><i class="fas fa-newspaper"></i> Actualités</div>
+            <h1>Actualités & <span>Médias</span></h1>
+            <p class="page-hero-text">
+                Retrouvez les interventions médiatiques, interviews et apparitions dans la presse
+                de Maître Nabil EL OUCHIKLI, avocat à la Cour d'appel de Paris.
+            </p>
+        </div>
+        <div class="page-hero-decor"><i class="fas fa-newspaper"></i></div>
+    </section>
+
+    <!-- Interventions Médiatiques -->
+    <section class="medias-section">
+        <div class="container">
+            <div class="section-header center">
+                <div class="section-label">Vidéos</div>
+                <h2 class="section-title">Interventions <span class="gold">Médiatiques</span></h2>
+                <p class="section-subtitle">Maître Nabil EL OUCHIKLI intervient régulièrement dans les médias pour commenter des affaires sensibles en droit pénal.</p>
+            </div>
+            <div class="video-grid">
+                <div class="video-card" data-aos="fade-up">
+                    <div class="video-embed">
+                        <iframe src="https://www.youtube.com/embed/sGczI7IirSU?rel=0" title="Intervention médiatique de Maître Nabil EL OUCHIKLI" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-card-content">
+                        <h3>Intervention médiatique de Maître EL OUCHIKLI</h3>
+                        <p>Maître Nabil EL OUCHIKLI intervient sur des questions de droit pénal et partage son analyse juridique sur des affaires d'actualité.</p>
+                        <div class="video-card-meta">
+                            <span><i class="fab fa-youtube"></i> YouTube</span>
+                            <span><i class="fas fa-gavel"></i> Droit Pénal</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dans la Presse -->
+    <section class="medias-section alt">
+        <div class="container">
+            <div class="section-header center">
+                <div class="section-label">Presse</div>
+                <h2 class="section-title">Dans la <span class="gold">Presse</span></h2>
+                <p class="section-subtitle">Articles et couvertures médiatiques mentionnant Maître Nabil EL OUCHIKLI.</p>
+            </div>
+            <div class="articles-grid">
+                <a href="https://www.aa.com.tr/fr/monde/france-l-avocat-de-nabil-ennasri-d%C3%A9nonce-l-acharnement-et-le-traitement-in%C3%A9quitable-r%C3%A9serv%C3%A9-%C3%A0-son-client/3373063" target="_blank" rel="noopener" class="article-card" data-aos="fade-up">
+                    <div class="article-source"><i class="fas fa-newspaper"></i> Anadolu Agency</div>
+                    <h3>L'avocat dénonce l'acharnement et le traitement inéquitable réservé à son client</h3>
+                    <p>Maître Nabil EL OUCHIKLI prend la parole lors d'une conférence de presse pour dénoncer les conditions de détention et le traitement judiciaire de son client.</p>
+                    <span class="article-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+                </a>
+                <a href="https://www.aa.com.tr/fr/monde/ma%C3%AEtre-nabil-el-ouchikli-le-terrorisme-c-est-les-ceintures-explosives-ce-n-est-pas-le-ramadan-et-les-p%C3%A8lerinages-/3427180" target="_blank" rel="noopener" class="article-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="article-source"><i class="fas fa-newspaper"></i> Anadolu Agency</div>
+                    <h3>Maître EL OUCHIKLI : une prise de position forte sur la qualification pénale</h3>
+                    <p>Dans le cadre d'une affaire médiatisée, Maître EL OUCHIKLI s'exprime sur la qualification d'association de malfaiteurs terroriste et la défense des libertés fondamentales.</p>
+                    <span class="article-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+                </a>
+                <a href="https://www.yabiladi.com/articles/details/157760/france-sorti-prison-nabil-ennasri.html" target="_blank" rel="noopener" class="article-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="article-source"><i class="fas fa-newspaper"></i> Yabiladi</div>
+                    <h3>Libération sous contrôle judiciaire : la réaction de l'avocat</h3>
+                    <p>Maître Nabil EL OUCHIKLI se dit soulagé de la remise en liberté de son client après plusieurs mois de détention provisoire et rappelle l'importance du respect des droits de la défense.</p>
+                    <span class="article-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+                </a>
+                <a href="https://www.alexia.fr/avocat-776367/nabil-el-ouchikli.htm" target="_blank" rel="noopener" class="article-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="article-source"><i class="fas fa-star"></i> Alexia.fr</div>
+                    <h3>Avis et recommandations clients</h3>
+                    <p>Consultez les avis et recommandations des clients de Maître Nabil EL OUCHIKLI sur la plateforme juridique Alexia.fr.</p>
+                    <span class="article-link">Voir le profil <i class="fas fa-arrow-right"></i></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Podcast -->
+    <section class="medias-section">
+        <div class="container">
+            <div class="section-header center">
+                <div class="section-label">Podcast</div>
+                <h2 class="section-title">Écouter <span class="gold">Maître EL OUCHIKLI</span></h2>
+            </div>
+            <div class="podcast-card" data-aos="fade-up">
+                <div class="podcast-icon">
+                    <i class="fas fa-podcast"></i>
+                </div>
+                <div class="podcast-content">
+                    <h3>Génération Justice</h3>
+                    <p>Maître Nabil EL OUCHIKLI est l'invité du podcast Génération Justice. Il revient sur son parcours atypique et partage sa vision de la profession d'avocat et l'importance de la passion dans l'exercice du droit.</p>
+                    <a href="https://open.spotify.com/episode/3O4MEUsiMOBAGbKXBIoTCl" target="_blank" rel="noopener"><i class="fab fa-spotify"></i> Écouter sur Spotify</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="page-cta">
+        <div class="container">
+            <h2>Besoin d'un Avocat ?</h2>
+            <p>Prenez rendez-vous pour une consultation. Maître EL OUCHIKLI vous accompagne avec rigueur et détermination.</p>
+            <a href="index.html#contact" class="btn btn-lg">Prendre Rendez-vous</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <svg class="logo-svg" viewBox="0 0 1600 400" xmlns="http://www.w3.org/2000/svg">
+                            <defs><linearGradient id="footerGold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#E6D3A3"/><stop offset="50%" stop-color="#C9A24A"/><stop offset="100%" stop-color="#9F7B2F"/></linearGradient></defs>
+                            <text x="120" y="250" font-family="Cinzel, Trajan Pro, Times New Roman, serif" font-size="170" letter-spacing="12" fill="#FFFFFF">NEO</text>
+                            <text x="580" y="250" font-family="Cinzel, Trajan Pro, Times New Roman, serif" font-size="170" letter-spacing="12" fill="url(#footerGold)">AVOCATS</text>
+                        </svg>
+                    </div>
+                    <p>Cabinet d'avocats inscrit au Barreau. Avocat à la Cour d'appel de Paris. Intervention partout en France.</p>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/nabilelouchikli?igsh=MTA5YmlxaTY3Z2hhaw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://snapchat.com/t/ALTUc6T7" target="_blank"><i class="fab fa-snapchat-ghost"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Domaines</h4>
+                    <ul>
+                        <li><a href="avocat-droit-penal.html">Droit Pénal</a></li>
+                        <li><a href="avocat-droit-penal-des-affaires.html">Droit Pénal des Affaires</a></li>
+                        <li><a href="avocat-prejudice-corporel.html">Réparation du Préjudice Corporel</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Liens Utiles</h4>
+                    <ul>
+                        <li><a href="#">Mentions Légales</a></li>
+                        <li><a href="#">Politique de Confidentialité</a></li>
+                        <li><a href="https://www.cnb.avocat.fr/" target="_blank">Conseil National des Barreaux</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone-alt"></i> 06 01 01 30 44</p>
+                        <p><i class="fas fa-envelope"></i> contact@nabil-elouchikli.fr</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 NEO Avocat — Tous droits réservés</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="whatsapp-container">
+        <div class="whatsapp-label"><span>Urgence ?</span> Appelez-nous</div>
+        <a href="https://api.whatsapp.com/send/?phone=33601013044&text&type=phone_number&app_absent=0" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Contactez-nous sur WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

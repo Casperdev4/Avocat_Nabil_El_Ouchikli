@@ -28,7 +28,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 14px;
+    font-size: 15px;
     color: rgba(255,255,255,0.6);
     margin-bottom: 20px;
 }
@@ -55,7 +55,7 @@
     color: var(--gold);
     padding: 8px 20px;
     border-radius: 50px;
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 24px;
@@ -76,7 +76,7 @@
 }
 
 .page-hero-text {
-    font-size: 17px;
+    font-size: 18px;
     color: rgba(255,255,255,0.75);
     max-width: 600px;
     line-height: 1.8;
@@ -166,7 +166,7 @@
 }
 
 .domain-intro-content p {
-    font-size: 15px;
+    font-size: 16px;
     color: var(--text-light);
     line-height: 1.8;
     margin-bottom: 16px;
@@ -235,7 +235,7 @@ a.service-item {
 }
 
 .service-item p {
-    font-size: 14px;
+    font-size: 15px;
     color: var(--text-light);
     line-height: 1.7;
 }
@@ -299,7 +299,7 @@ a.service-item {
 }
 
 .process-step p {
-    font-size: 13px;
+    font-size: 14px;
     color: var(--text-light);
     line-height: 1.6;
     max-width: 200px;
@@ -359,7 +359,7 @@ a.service-item {
 }
 
 .highlight-card p {
-    font-size: 14px;
+    font-size: 15px;
     color: rgba(255,255,255,0.6);
     line-height: 1.7;
 }
@@ -436,7 +436,7 @@ a.service-item {
 
 .faq-answer-inner {
     padding: 0 24px 20px;
-    font-size: 14px;
+    font-size: 15px;
     color: var(--text-light);
     line-height: 1.8;
 }
@@ -456,7 +456,7 @@ a.service-item {
 
 .page-cta p {
     color: rgba(255,255,255,0.85);
-    font-size: 16px;
+    font-size: 17px;
     margin-bottom: 30px;
     max-width: 500px;
     margin-left: auto;
@@ -515,7 +515,7 @@ a.service-item {
 }
 
 .other-domain-link span {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     color: var(--blue-dark);
 }

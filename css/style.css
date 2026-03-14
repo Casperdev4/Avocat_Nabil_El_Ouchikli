@@ -17,7 +17,7 @@
     --text: #2D2D2D;
     --text-light: #6B6B6B;
     --font-heading: 'Cinzel', Georgia, serif;
-    --font-body: 'Inter', 'Segoe UI', sans-serif;
+    --font-body: 'Times New Roman', Times, serif;
     --shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
     --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.12);
     --shadow-gold: 0 4px 20px rgba(201, 169, 110, 0.3);
@@ -39,7 +39,7 @@ html {
 
 body {
     font-family: var(--font-body);
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.7;
     color: var(--text);
     background: var(--white);
@@ -145,7 +145,7 @@ ul { list-style: none; }
     z-index: 1001;
     background: var(--blue-dark);
     color: rgba(255,255,255,0.8);
-    font-size: 13px;
+    font-size: 14px;
     padding: 8px 0;
     border-bottom: 1px solid rgba(201,169,110,0.2);
 }
@@ -177,7 +177,7 @@ ul { list-style: none; }
 
 .social-links a {
     color: rgba(255,255,255,0.7);
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .social-links a:hover {
@@ -242,7 +242,7 @@ ul { list-style: none; }
 
 .nav-menu a {
     color: rgba(255,255,255,0.85);
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -366,7 +366,7 @@ ul { list-style: none; }
     color: var(--gold);
     padding: 10px 22px;
     border-radius: 50px;
-    font-size: 12px;
+    font-size: 13px;
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 32px;
@@ -395,7 +395,7 @@ ul { list-style: none; }
 }
 
 .hero-text {
-    font-size: 17px;
+    font-size: 18px;
     color: rgba(255,255,255,0.7);
     max-width: 520px;
     line-height: 1.8;
@@ -424,7 +424,7 @@ ul { list-style: none; }
 }
 
 .hero-trust-text {
-    font-size: 13px;
+    font-size: 14px;
     color: rgba(255,255,255,0.5);
     letter-spacing: 0.5px;
 }
@@ -494,7 +494,7 @@ ul { list-style: none; }
 }
 
 .hero-portrait-title {
-    font-size: 12px;
+    font-size: 13px;
     color: var(--gold);
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -539,7 +539,7 @@ ul { list-style: none; }
 
 .stat-label {
     display: block;
-    font-size: 12px;
+    font-size: 13px;
     color: rgba(255,255,255,0.5);
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -558,7 +558,7 @@ ul { list-style: none; }
     gap: 10px;
     padding: 14px 32px;
     border-radius: 6px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -593,7 +593,7 @@ ul { list-style: none; }
 
 .btn-lg {
     padding: 18px 40px;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .btn-full {
@@ -615,7 +615,7 @@ ul { list-style: none; }
 }
 
 .section-label {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -634,7 +634,7 @@ ul { list-style: none; }
 }
 
 .section-subtitle {
-    font-size: 16px;
+    font-size: 17px;
     color: var(--text-light);
     max-width: 560px;
     margin: 0 auto;
@@ -701,7 +701,7 @@ ul { list-style: none; }
 }
 
 .exp-text {
-    font-size: 12px;
+    font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 1px;
     line-height: 1.3;
@@ -714,7 +714,7 @@ ul { list-style: none; }
 .about-text {
     color: var(--text-light);
     margin-bottom: 16px;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .about-features {
@@ -728,7 +728,7 @@ ul { list-style: none; }
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
 }
 
@@ -811,7 +811,7 @@ ul { list-style: none; }
 }
 
 .domain-card p {
-    font-size: 14px;
+    font-size: 15px;
     color: var(--text-light);
     line-height: 1.7;
 }
@@ -886,7 +886,7 @@ ul { list-style: none; }
 }
 
 .why-card p {
-    font-size: 14px;
+    font-size: 15px;
     color: rgba(255,255,255,0.65);
     line-height: 1.7;
 }
@@ -989,7 +989,7 @@ ul { list-style: none; }
 }
 
 .team-info span {
-    font-size: 13px;
+    font-size: 14px;
     color: var(--gold);
     font-weight: 600;
     text-transform: uppercase;
@@ -997,7 +997,7 @@ ul { list-style: none; }
 }
 
 .team-info p {
-    font-size: 13px;
+    font-size: 14px;
     color: var(--text-light);
     margin-top: 8px;
 }
@@ -1037,7 +1037,7 @@ ul { list-style: none; }
 }
 
 .testimonial-card > p {
-    font-size: 17px;
+    font-size: 18px;
     font-style: italic;
     color: var(--text);
     line-height: 1.8;
@@ -1066,12 +1066,12 @@ ul { list-style: none; }
 
 .testimonial-author strong {
     display: block;
-    font-size: 15px;
+    font-size: 16px;
     color: var(--blue-dark);
 }
 
 .testimonial-author span {
-    font-size: 12px;
+    font-size: 13px;
     color: var(--gold);
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -1147,7 +1147,7 @@ ul { list-style: none; }
 
 .cta-content p {
     color: rgba(255,255,255,0.85);
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .cta-banner .btn-gold {
@@ -1208,13 +1208,13 @@ ul { list-style: none; }
 
 .contact-item strong {
     display: block;
-    font-size: 14px;
+    font-size: 15px;
     color: var(--gold-light);
     margin-bottom: 2px;
 }
 
 .contact-item p {
-    font-size: 14px;
+    font-size: 15px;
     color: rgba(255,255,255,0.7);
     line-height: 1.5;
 }
@@ -1249,7 +1249,7 @@ ul { list-style: none; }
 
 .form-group label {
     display: block;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     color: var(--text);
     margin-bottom: 6px;
@@ -1265,7 +1265,7 @@ ul { list-style: none; }
     border: 1px solid var(--gray-300);
     border-radius: 8px;
     font-family: var(--font-body);
-    font-size: 14px;
+    font-size: 15px;
     color: var(--text);
     background: var(--gray-50);
     transition: var(--transition);
@@ -1298,7 +1298,7 @@ ul { list-style: none; }
 }
 
 .form-check label {
-    font-size: 12px;
+    font-size: 13px;
     text-transform: none;
     letter-spacing: 0;
     font-weight: 400;
@@ -1384,7 +1384,7 @@ ul { list-style: none; }
 
 .video-links p {
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.7;
 }
 
@@ -1413,7 +1413,7 @@ ul { list-style: none; }
 }
 
 .footer-col > p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.7;
     margin-bottom: 20px;
 }
@@ -1465,7 +1465,7 @@ ul { list-style: none; }
 }
 
 .footer-col ul a {
-    font-size: 14px;
+    font-size: 15px;
     color: rgba(255,255,255,0.6);
     transition: var(--transition);
 }
@@ -1477,7 +1477,7 @@ ul { list-style: none; }
 }
 
 .footer-contact p {
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 10px;
     display: flex;
     align-items: flex-start;
@@ -1492,7 +1492,7 @@ ul { list-style: none; }
 .footer-bottom {
     text-align: center;
     padding: 20px 0;
-    font-size: 13px;
+    font-size: 14px;
     color: rgba(255,255,255,0.4);
 }
 
@@ -1512,7 +1512,7 @@ ul { list-style: none; }
     padding: 10px 18px;
     border-radius: 30px;
     font-family: var(--font-body);
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.5px;
     white-space: nowrap;
