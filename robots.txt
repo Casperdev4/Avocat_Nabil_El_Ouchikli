@@ -3,4 +3,4 @@ Allow: /
 Disallow: /.claude/
 Disallow: /.vscode/
 
-Sitemap: https://eon-avocat.fr/sitemap.xml
+Sitemap: https://nabil-elouchikli.fr/sitemap.xml

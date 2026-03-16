@@ -15,7 +15,7 @@
     --gray-700: #616161;
     --gray-900: #212121;
     --text: #2D2D2D;
-    --text-light: #6B6B6B;
+    --text-light: #444444;
     --font-heading: 'Cinzel', Georgia, serif;
     --font-body: 'Times New Roman', Times, serif;
     --shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
@@ -1866,6 +1866,10 @@ ul { list-style: none; }
     }
 
     .section { padding: 60px 0; }
+
+    .about-content {
+        text-align: center;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1879,4 +1883,5 @@ ul { list-style: none; }
     .stat-label { font-size: 9px; }
 
     .contact-form { padding: 24px; }
+    .whatsapp-label { display: none; }
 }
