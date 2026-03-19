@@ -29,7 +29,25 @@
       "Bash(sed -i \"s/font-family: ''Raleway'', sans-serif/font-family: ''Inter'', sans-serif/g\" cabinet.html)",
       "Bash(find . -name \"*.html\" ! -name \"index.html\" -exec sed -i 's|    <a href=\"\"https://api.whatsapp.com/send/?phone=33601013044\\\\&text\\\\&type=phone_number\\\\&app_absent=0\"\" target=\"\"_blank\"\" rel=\"\"noopener\"\" class=\"\"whatsapp-float\"\" aria-label=\"\"Contactez-nous sur WhatsApp\"\">\\\\n        <i class=\"\"fab fa-whatsapp\"\"></i>\\\\n    </a>|    <div class=\"\"whatsapp-container\"\">\\\\n        <div class=\"\"whatsapp-label\"\"><span>Urgence ?</span> Appelez-nous</div>\\\\n        <a href=\"\"https://api.whatsapp.com/send/?phone=33601013044\\\\&text\\\\&type=phone_number\\\\&app_absent=0\"\" target=\"\"_blank\"\" rel=\"\"noopener\"\" class=\"\"whatsapp-float\"\" aria-label=\"\"Contactez-nous sur WhatsApp\"\">\\\\n            <i class=\"\"fab fa-whatsapp\"\"></i>\\\\n        </a>\\\\n    </div>|g' {} +)",
       "Bash(python -c \":*)",
-      "Bash(node -e \":*)"
+      "Bash(node -e \":*)",
+      "Read(//c/Users/Webpr/Desktop/Entreprises/WebPrime/Sites_pret/fini/Couvreur_25/**)",
+      "Read(//c//**)",
+      "Bash(ls \"/c/Users/Webpr/Desktop/Entreprises/WebPrime/Sites_pret/fini/Couvreur_25/\"*.html)",
+      "Bash(ls c:/Users/Webpr/Desktop/Nabil_Avocats/*.jpg c:/Users/Webpr/Desktop/Nabil_Avocats/*.jpeg c:/Users/Webpr/Desktop/Nabil_Avocats/*.png c:/Users/Webpr/Desktop/Nabil_Avocats/*.webp)",
+      "Bash(find . -name \"*.html\" -exec sed -i 's|href=\"\"../cabinet\\\\.html\"\"|href=\"\"../cabinet-avocat.html\"\"|g' {} +)",
+      "Read(//dev/**)",
+      "WebSearch",
+      "Bash(find . -name \"*.html\" ! -name \"index.html\" -exec sed -i 's/contact@eon-avocat\\\\.fr/contact@nabil-elouchikli.fr/g' {} +)",
+      "Bash(find . -name \"*.html\" -exec sed -i 's/eon-avocat\\\\.fr/nabil-elouchikli.fr/g' {} +)",
+      "Bash(find . -name \"*.html\" -exec sed -i 's/El Ouchikli/EL OUCHIKLI/g' {} +)",
+      "Bash(find . -name \"*.html\" -exec sed -i 's/Bobigny \\(93\\)/Paris/g' {} +)",
+      "Bash(find . -name \"*.html\" -exec sed -i 's/Seine-Saint-Denis &amp; Île-de-France/Intervention partout en France/g; s/Seine-Saint-Denis/France/g' {} +)",
+      "Bash(find . -name \"*.html\" -exec sed -i \"s/Cabinet d''Avocats à Bobigny/Cabinet d''Avocats à Paris/g; s/Cabinet d''avocats à Bobigny/Cabinet d''avocats à Paris/g; s/à Bobigny/à Paris/g; s/tribunal correctionnel de Bobigny/tribunal correctionnel de Paris/g; s/Tribunal Judiciaire de Bobigny/Tribunal Judiciaire de Paris/g; s/tribunal de Bobigny/tribunal de Paris/g\" {} +)",
+      "Bash(find . -name \"*.html\" -exec sed -i \"s/Bobigny/Paris/g\" {} +)",
+      "Bash(find . -name \"*.html\" -exec sed -i 's/93000 Paris/75000 Paris/g; s/Seine-Saint-Denis/Île-de-France/g' {} +)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\Webpr\\Desktop\\Entreprises\\WebPrime\\Sites_pret\\fini\\Couvreur_25"
     ]
   }
 }

@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed -i 's/\"\"postalCode\"\": \"\"93000\"\"/\"\"postalCode\"\": \"\"75000\"\"/g' index.html cabinet-avocat.html)",
+      "Bash(sed -i 's/France \\(93\\)/France/g' penal/garde-a-vue-avocat.html)",
+      "Bash(find . -path './*/*.html' -exec sed -i 's|<li><a href=\"\"../index.html#pourquoi\"\">Pourquoi Nous</a></li>|<li><a href=\"\"../index.html#pourquoi\"\">Pourquoi Nous</a></li>\\\\n                <li><a href=\"\"../actualites.html\"\">Actualités</a></li>|g' {} +)",
+      "Bash(find . -name \"*.html\" -exec sed -i 's|actualites.html|neo-avocats.html|g' {} +)",
+      "Bash(for file:*)",
+      "Bash(do echo:*)",
+      "Read(//c/Users/Webpr/Desktop/Entreprises/WebPrime/Sites_code/Nabil_Avocats/**)",
+      "Bash(grep -c \"eon-avocat.fr\" avocat-*.html tribunaux/*.html affaires/*.html corporel/*.html penal/*.html)",
+      "Bash(grep -v \":0$\")",
+      "Bash(for f:*)",
+      "Bash(do sed:*)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\Webpr\\Desktop\\Entreprises\\WebPrime\\Sites_code\\Nabil_Avocats"
+    ]
+  }
+}
