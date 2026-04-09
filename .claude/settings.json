@@ -76,7 +76,13 @@
       "Bash(mv avocat-accident-du-travail.html avocat-accident-du-travail-93.html)",
       "Bash(mv avocat-agression.html avocat-agression-93.html)",
       "Bash(mv avocat-cour-d-assises.html avocat-cour-d-assises-93.html)",
-      "Bash(mv avocat-droit-penal-des-affaires.html avocat-droit-penal-des-affaires-93.html)"
+      "Bash(mv avocat-droit-penal-des-affaires.html avocat-droit-penal-des-affaires-93.html)",
+      "Bash(grep -c '<!--' *.html)",
+      "Bash(sed -i '/^    <!-- Interventions Médiatiques -->$/d' neo-avocats.html)",
+      "Bash(sed -i '/^    <!-- Dans la Presse -->$/d' neo-avocats.html)",
+      "Bash(sed -i '/^    <!-- Podcast -->$/d' neo-avocats.html)",
+      "Bash(sed -i '/^    <!-- CTA -->$/d' neo-avocats.html)",
+      "Bash(grep -c '<!--' *.html *.xml)"
     ],
     "additionalDirectories": [
       "c:\\Users\\Webpr\\Desktop\\Entreprises\\WebPrime\\Sites_code\\Nabil_Avocats"
